@@ -6,4 +6,6 @@ Commands to execute:
 
 `$ python3 dir_walk_sorted.py "/home/username/projects/myproject/api"`
 
+`$ python3 dir_walk_sorted_all.py "/home/username/projects/myproject/api"`
+
 `$ python3 compression.py "aaabaaaaccaaaaba"`
