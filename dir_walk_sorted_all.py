@@ -4,13 +4,13 @@ from sortedcontainers import SortedDict
 def dir_walk_sorted_all(path:str):
     """
     Prints sorted (ASC) list of all files under the directory including the sub directories
-    
+
     SortedDict. Keeps our dict/hasmap sorted by key. 
     Values are list of tuples. List have length >1 if multiple files have the same size
        BYTES        PATH          NAME
      {
-        123: ('/home/project/', 'file1')
-        499: ('/home/project/', 'file3')
+        123: [('/home/project/', 'file1')]
+        499: [('/home/project/', 'file3')]
         523: [('/home/project/', 'file2'), ('/home/project/', 'file4')]  # same size
      }
 
